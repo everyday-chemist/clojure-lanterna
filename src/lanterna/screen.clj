@@ -9,6 +9,12 @@
 (defn enumerate [s]
   (map vector (iterate inc 0) s))
 
+(defn set-cursor-visible 
+  [^Screen screen b]
+  (-> screen
+      (.getTerminal)
+      (.setCursorVisible b)))
+
 (defn add-resize-listener
   "Create a listener that will call the supplied fn when the screen is resized.
 

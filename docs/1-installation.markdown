@@ -8,7 +8,7 @@ It has no other dependencies (aside from Lanterna itself, of course).
 
 Add this to your `project.clj`:
 
-    [clojure-lanterna "0.9.7"]
+    [clojure-lanterna "0.9.8"]
 
 That's it.
 

@@ -8,7 +8,7 @@ Read the [documentation][] to learn more.
 
 ## Leiningen
 
-    [clojure-lanterna "0.9.7"]
+    [clojure-lanterna "0.9.8"]
 
 ## License
 
